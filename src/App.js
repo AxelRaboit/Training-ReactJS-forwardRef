@@ -12,7 +12,7 @@ class App extends Component {
   
 
   handleClick = () => {
-    this.refComp.current.addFocus();
+    this.refComp.current.focus();
   }
 
   render() {
