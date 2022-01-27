@@ -16,6 +16,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.refComp);
     return (
       <div className="App">
         <MyRef name="toto" ref={this.refComp} />

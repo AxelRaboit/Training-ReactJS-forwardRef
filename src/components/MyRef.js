@@ -7,7 +7,7 @@ const MyRef = React.forwardRef((props, ref) => {
     
     return (
         <div>
-            <input type="text" />
+            <input ref={ref} type="text" />
         </div>
     )
 })
